@@ -1,0 +1,41 @@
+Refresh>testoutput>testng-failed.xml:execute this for failed tc
+
+6june
+>dependsOnMethod:the control will go to method a as per priority & then it reads the flag & go to b.
+method b will execute & control again comes a method a. 
+>if method the failed then the method which are dependent on b will be skip
+
+@Test
+public void b(){
+Reporter.log("b",true);
+}
+
+@Test(dependsOnMethod="b")
+public void a(){
+Reporter.log("a",true);
+}
+
+alwaysRun:always run flag to execute the test case irespective status of a method upon which
+
+Annotation in TestNG:
+
+           @Test2
+           @Test1
+@BeforeMethod	@AfterMethod    
+@BeforeTest		@AfterTest
+@BeforeClass	@AfterClass
+@BeforeSuite	@AfterSuite
+
+
+
+
+
+
+
+
+
+
+
+
+
+

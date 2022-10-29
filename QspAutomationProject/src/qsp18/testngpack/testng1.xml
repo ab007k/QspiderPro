@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="qsp18.testngpack.TNG01demo"/>
+      <class name="qsp18.testngpack.TNG03remo"/>
+      <class name="qsp18.testngpack.TNG02sumo"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->

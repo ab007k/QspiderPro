@@ -1,0 +1,29 @@
+1>>java.lang.IllegalStateException: The driver executable must exist:.\driver\chromedriver.exe
+System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+
+2>>org.openqa.selenium.ElementClickInterceptedException: element click intercepted:
+Element <div class="_2gmUFU _3V8rao">...</div> is not clickable at point (137, 604).
+Other element would receive the click: <div class="_1XXPTY _1v2cG7">...</div>
+
+3>>screenshots
+java.io.FileNotFoundException: .\screenshot\chromedriver.exe (The system cannot find the path specified)
+File dest=new File("./screenshots/sc1.png");
+
+4>>java.io.IOException
+produced by failed or interrupted I/O operations.
+Since:See Also:java.io.InputStream java.io.OutputStream
+
+5>>>>org.openqa.selenium.InvalidArgumentException: invalid argument
+driver.get("./WebElement/disabledTextBox.html");
+
+6>>org.openqa.selenium.JavascriptException: javascript error: Cannot set properties of null (setting 'value')
+driver.get("D:\\@Qspider\\WCSM7\\QspAutomationProject\\WebElement\\disabledTextBox.htm");
+
+7>>getWindowHandle():Flipcart
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression (//a[.='128 GB'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//a[.='128 GB']' is not a valid XPath expression.
+
+8>>getWindowHandle():Flipcart
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+
+

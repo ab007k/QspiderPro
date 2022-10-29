@@ -1,0 +1,27 @@
+If u not visible created project:
+Window->ShowView->PackageExplorer
+
+Workspace:WCSM7Selenium->
+JavaProject:qspautomationproject->
+Package:qsp->
+Class->Demo
+
+How to get main method:
+Type:main & Press Ctrl+Space
+
+PrintStatement:
+Type:sout & Press Ctrl+Space(2time)
+
+ArrengmentStatement:Ctrl+A->Ctrl+S+I
+
+If u not visible output in Console:
+Window->ShowView->Console
+
+Create drivers and jars folder under project:
+Copy and Paste:chrome,gecko in drivers and Selenium jars in jars
+
+SourceCode:selenium.dev
+
+
+Import Pakage:
+Ctr+Shift+O
